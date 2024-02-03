@@ -1,0 +1,283 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+.background1
+{
+    background-image: url("/images/e6b4b4e8ceeb011a10f3f117613dd234.jpg");
+    background-size: cover; 
+    color: rgb(247, 243, 243);
+    text-align: center;
+    padding: 350px;
+
+    
+    
+
+   
+}
+  
+  
+  
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+
+}
+
+.image {
+    float: right;
+}
+
+/* Add additional styling as needed */
+.card {
+    max-width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Image Container */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Text Container */
+  .card .card-content {
+    padding: 15px;
+  }
+  
+  /* Title */
+  .card .card-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Message */
+  .card .card-content p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+
+  
+
+    
+.background2
+ {
+    max-width:;
+    height: ;
+    background-image:url(/images/paris.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+ }
+
+<style>
+
+        body {
+            background-color: rgb(215, 215, 223);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .imageContainer2 {
+            display: flex;
+            flex-direction: row;
+            gap: 20px; /* Adjust the gap between the image cards */
+            text-align: center;
+        }
+
+        .imageCard2 {
+            width: 60%;
+        }
+
+        .imageCard2 img {
+            max-width: 70%;
+            height: auto;
+        }
+
+        .card-content2 {
+            margin-top: 10px; /* Adjust the margin between the image and text */
+            text-align: center;
+        }
+
+        button {
+            /* Add your button styles here */
+        }
+
+        /* Add any other styles as needed */
+
+          </style>  
+
+         
+          
+          body {
+    
+            margin: 0;
+            padding: 0;
+        }
+        
+.background3
+
+{
+   max-width: ;
+   max-height: ;
+   background-image:url(/images/39366527.webp) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+
+}
+
+<style>
+
+       body {
+           background-color: rgb(215, 215, 223);
+           margin: 0;
+           padding: 0;
+           font-family: Arial, sans-serif;
+       }
+
+       .card3 {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           margin: 20px;
+       }
+
+       .imageContainer3 {
+           display: flex;
+           flex-direction: row;
+           gap: 20px; /* Adjust the gap between the image cards */
+           text-align: center;
+       }
+
+       .imageCard3 {
+           width: 60%;
+       }
+
+       .imageCard3 img {
+           max-width: 70%;
+           height: auto;
+       }
+
+       .card-content3 {
+           margin-top: 10px; /* Adjust the margin between the image and text */
+           text-align: center;
+       }
+
+       button {
+           /* Add your button styles here */
+       }
+
+       /* Add any other styles as needed */
+   </style>
+
+   body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+    
+.background4
+ {
+    max-width:;
+    max-height: ;
+    background-image:url(/images/d5f85e86.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+ }
+
+ <style>
+
+        body {
+            background-color: rgb(215, 215, 223);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card4 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .imageContainer4 {
+            display: flex;
+            flex-direction: row;
+            gap: 20px; /* Adjust the gap between the image cards */
+            text-align: center;
+        }
+
+        .imageCard4 {
+            width: 60%;
+        }
+
+        .imageCard4 img {
+            max-width: 70%;
+            height: auto;
+        }
+
+        .card-content4 {
+            margin-top: 10px; /* Adjust the margin between the image and text */
+            text-align: center;
+        }
+
+        button {
+            /* Add your button styles here */
+        }
+
+        /* Add any other styles as needed */
+    </style>
+
+    .logo {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        width: 70px;
+        height: 70px;
+      }
+      
