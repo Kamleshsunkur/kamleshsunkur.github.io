@@ -288,4 +288,43 @@ section {
         width: 70px;
         height: 70px;
       }
+
       
+      form {
+        width: 300px;
+        margin: auto;
+       }
+       
+       input[type=text], input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid red;
+        border-radius: 4px;
+       }
+       
+       input[type=submit] {
+        background-color: #3CBC8D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+       }
+       
+       input[type=submit]:hover {
+        background-color: darkgreen;
+       }
+
+       #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        z-index: -1;
+        object-fit: cover;
+       }
+       
