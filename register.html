@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        .container {
+            width: 500px;
+            margin: auto;
+            padding: 100px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .btn-outline-primary {
+            background-color: #007bff;
+            color: #fff;
+            border: 1px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="clearfix">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt="LOGO" height="150" width="175"></a>
+            </div>
+            <ul class="navigation">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="practices.html">Practices</a>
+                </li>
+                <li>
+                    <a href="teacher.html">Our teacher</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <fieldset>
+            <legend>Register</legend>
+            <form action="your-register-endpoint" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-outline-primary"><a href="login.html" class="subscribe">Register</a></button>
+            </form>
+        </fieldset>
+    </div>
+    <div id="footer">
+        <div class="clearfix">
+            <div class="section">
+                <h4>Latest News</h4>
+                <p>
+                    we provide 50% discount for the first ten students to join
+                </p>
+            </div>
+            <div class="section contact">
+                <h4>Contact Us</h4>
+                <p>
+                    <span>Address:</span> the address city, state 1111
+                </p>
+                <p>
+                    <span>Phone:</span> (+20) 000 222 999
+                </p>
+                <p>
+                    <span>Email:</span> moprof@gmail.com
+                </p>
+            </div>
+            <div class="section">
+                <h4>SEND US A MESSAGE</h4>
+                <p>
+                    contact us for more details or any question
+                </p>
+                <a href="contact.html" class="subscribe">Click to send us an email</a>
+            </div>
+        </div>
+        <div id="footnote">
+            <div class="clearfix">
+                <div class="connect">
+                    <a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="googleplus"></a><a href="" class="pinterest"></a>
+                </div>
+                <p>
+                    © Copyright 2024 moprof. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

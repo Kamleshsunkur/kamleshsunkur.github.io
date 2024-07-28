@@ -1,0 +1,2 @@
+C:\Users\Rahul\source\repos\moprof\moprof\obj\Debug\moprof.csproj.AssemblyReference.cache
+C:\Users\Rahul\source\repos\moprof\moprof\obj\Debug\moprof.csproj.CoreCompileInputs.cache
